@@ -1,0 +1,8 @@
+prefix=/home/alectokosch/catkin_ws/devel
+
+Name: Assignment2_ws
+Description: Description of Assignment2_ws
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

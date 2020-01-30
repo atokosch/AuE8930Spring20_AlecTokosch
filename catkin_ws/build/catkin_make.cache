@@ -1,0 +1,2 @@
+assignment2_ws:beginner_tutorials:turtlesim_cleaner
+-DCATKIN_DEVEL_PREFIX=/home/alectokosch/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/alectokosch/catkin_ws/install -G Unix Makefiles

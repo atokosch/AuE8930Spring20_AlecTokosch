@@ -1,0 +1,17 @@
+/home/alectokosch/catkin_ws/install/_setup_util.py
+/home/alectokosch/catkin_ws/install/env.sh
+/home/alectokosch/catkin_ws/install/setup.bash
+/home/alectokosch/catkin_ws/install/local_setup.bash
+/home/alectokosch/catkin_ws/install/setup.sh
+/home/alectokosch/catkin_ws/install/local_setup.sh
+/home/alectokosch/catkin_ws/install/setup.zsh
+/home/alectokosch/catkin_ws/install/local_setup.zsh
+/home/alectokosch/catkin_ws/install/.rosinstall
+/home/alectokosch/catkin_ws/install/lib/pkgconfig/beginner_tutorials.pc
+/home/alectokosch/catkin_ws/install/share/beginner_tutorials/cmake/beginner_tutorialsConfig.cmake
+/home/alectokosch/catkin_ws/install/share/beginner_tutorials/cmake/beginner_tutorialsConfig-version.cmake
+/home/alectokosch/catkin_ws/install/share/beginner_tutorials/package.xml
+/home/alectokosch/catkin_ws/install/lib/pkgconfig/turtlesim_cleaner.pc
+/home/alectokosch/catkin_ws/install/share/turtlesim_cleaner/cmake/turtlesim_cleanerConfig.cmake
+/home/alectokosch/catkin_ws/install/share/turtlesim_cleaner/cmake/turtlesim_cleanerConfig-version.cmake
+/home/alectokosch/catkin_ws/install/share/turtlesim_cleaner/package.xml

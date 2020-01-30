@@ -1,0 +1,14 @@
+<launch>
+	<arg name="speed" default="1"/>
+	<arg name="angle" default="1"/> 
+	<arg name="distance" default="6.5"/>
+
+	<node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node"/> 
+	<node pkg="assignment2_ws" type="circle_param.py" name="circle_param">
+
+		<param name="speed" value="$(arg speed)"/>
+        <param name="angle" value="$(arg angle)"/>
+        <param name="distance" value="$(arg distance)"/>
+
+    </node>
+</launch>

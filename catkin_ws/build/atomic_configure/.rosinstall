@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/alectokosch/catkin_ws/devel/setup.sh

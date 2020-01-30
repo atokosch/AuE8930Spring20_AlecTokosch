@@ -1,0 +1,49 @@
+Alec Tokosch
+AuE893 Spring 2020
+This is assignment 2 submission
+Within the src folder there are 6 files and a folder called Launch, a folder called videos, and a folder called screenshots
+The launch folder contains launch files created. 
+
+The screenshots folder contains the screen shots of the 3 tasks. 
+Circle path is file circle.png
+Square open loop path is file sq_openloop.png
+Square closed loop path is file sq_closedloop.png
+
+The videos folder contains two videos of the task.
+Assignment2_video1 and Assignment2_video2, it is two videos since git would not allow me to upload a file greater than 100 MB. 
+
+TO RUN:
+To run each individually, use the launch files:
+turtlesim_circle.launch, turtlesim_squareol.launch, turtlesim_ squarecl.launch
+
+To run the with parameters with the launch files, use launch files:
+turtlesim_circle_param.launch, turtlesim_circle_sq_param.launch
+
+To run all with no parameters in the launch files, use launch files:
+turtlesim_assign2_all.launch
+
+
+EXPLAINATION OF FILES:
+src folder python scripts:
+circle.py – the python script for the first part of the assignment where the turtlebot will complete a circle. 
+circle_param.py – the python script for the first part of the assignment where the turtlebot will complete a circle but using a launch file that passes the parameters to the script. 
+
+square_openloop.py – the python script for the second part of the assignment where the turtlebot will complete a 2x2 circle at a specific speed.  
+square_openloop_param.py – the python script for the second part of the assignment where the turtlebot will complete a 2x2 circle at a specific speed but using a launch file that passes the parameters for linear speed, angular speed, and the distance for each side of the square. 
+
+square_closedloop.py – the python script for the third part of the assignment where the turtlebot will goes to specific points, these points are hard coded into the script. 
+
+Extra Credit – launch files
+There are 6 launch files. 
+turtlesim_assign2_all.launch – launches the 3 main files for assignment 2, these files are circle.py, square_openloop.py, and square_closedloop.py.
+
+turtlesim_circle.launch – launches the main circle file, circle.py, that has hard coded parameters (not passed using the launch files)
+turtlesim_circle_param.launch – launches the circle file with parameters, circle_param.py that has the parameters coded into the launch file. 
+
+turtlesim_circle_sp_param.launch –launches the circle file with parameters, circle_param.py, and the square openloop file, square_openloop_param.launch, that has the parameters coded into the launch file. 
+
+turtlesim_squareol.launch – launches the main square openloop file, square_openloop.py, that has hard coded parameters (not passed using the launch files).
+
+turtlesim_squarecl.launch – launches the main square closedloop file, square_closedloop.py, that has hard coded parameters (not passed using the launch files).
+
+

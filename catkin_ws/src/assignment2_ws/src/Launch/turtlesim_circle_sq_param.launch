@@ -1,0 +1,42 @@
+<launch>
+	<arg name="speed" default="1"/>
+	<arg name="angle" default="1"/> 
+	<arg name="distance" default="6.5"/>
+
+	<arg name="speedX" default=".2"/>
+	<arg name="speedAng" default=".2"/> 
+	<arg name="sq_dist" default="2"/>
+
+
+
+	<node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node_A"> 
+		<remap from="turtle1/cmd_vel" to="nodeA_cmdvel"/>
+	</node>
+
+	<node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node_B"> 
+		<remap from="turtle1/cmd_vel" to="nodeB_cmdvel"/>
+	</node>
+
+	<node pkg="assignment2_ws" type="circle_param.py" name="circle_param">
+
+		<param name="speed" value="$(arg speed)"/>
+        <param name="angle" value="$(arg angle)"/>
+        <param name="distance" value="$(arg distance)"/>
+        <remap from="turtle1/cmd_vel" to="nodeA_cmdvel"/>
+    </node>
+
+
+
+    <node pkg="assignment2_ws" type="square_openloop_param.py" name="square_openloop_param">
+
+		<param name="speedX" value="$(arg speedX)"/>
+        <param name="speedAng" value="$(arg speedAng)"/>
+        <param name="sq_dist" value="$(arg sq_dist)"/>
+        <remap from="turtle1/cmd_vel" to="nodeB_cmdvel"/>
+    </node>
+
+
+
+
+
+</launch>
