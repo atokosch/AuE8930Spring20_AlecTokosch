@@ -135,14 +135,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/alectokosch/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/alectokosch/catkin_ws/build/CMakeFiles /home/alectokosch/catkin_ws/build/Assignment2_ws/CMakeFiles/progress.marks
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Assignment2_ws/all
+	cd /home/alectokosch/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/alectokosch/catkin_ws/build/CMakeFiles /home/alectokosch/catkin_ws/build/assignment2_ws/CMakeFiles/progress.marks
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment2_ws/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/alectokosch/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Assignment2_ws/clean
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment2_ws/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,12 +152,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Assignment2_ws/preinstall
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment2_ws/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Assignment2_ws/preinstall
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment2_ws/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -166,228 +166,228 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-Assignment2_ws/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Assignment2_ws/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-.PHONY : Assignment2_ws/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+assignment2_ws/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment2_ws/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+.PHONY : assignment2_ws/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_nodejs: Assignment2_ws/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+std_msgs_generate_messages_nodejs: assignment2_ws/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 .PHONY : std_msgs_generate_messages_nodejs
 
 # fast build rule for target.
 std_msgs_generate_messages_nodejs/fast:
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f Assignment2_ws/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make Assignment2_ws/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f assignment2_ws/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make assignment2_ws/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 .PHONY : std_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
-Assignment2_ws/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Assignment2_ws/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : Assignment2_ws/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+assignment2_ws/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment2_ws/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+.PHONY : assignment2_ws/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_lisp: Assignment2_ws/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+std_msgs_generate_messages_lisp: assignment2_ws/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 .PHONY : std_msgs_generate_messages_lisp
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f Assignment2_ws/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make Assignment2_ws/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f assignment2_ws/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make assignment2_ws/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
-Assignment2_ws/CMakeFiles/std_msgs_generate_messages_eus.dir/rule:
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Assignment2_ws/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-.PHONY : Assignment2_ws/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+assignment2_ws/CMakeFiles/std_msgs_generate_messages_eus.dir/rule:
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment2_ws/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+.PHONY : assignment2_ws/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_eus: Assignment2_ws/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+std_msgs_generate_messages_eus: assignment2_ws/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 .PHONY : std_msgs_generate_messages_eus
 
 # fast build rule for target.
 std_msgs_generate_messages_eus/fast:
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f Assignment2_ws/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make Assignment2_ws/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f assignment2_ws/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make assignment2_ws/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 .PHONY : std_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
-Assignment2_ws/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Assignment2_ws/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
-.PHONY : Assignment2_ws/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+assignment2_ws/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment2_ws/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+.PHONY : assignment2_ws/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_nodejs: Assignment2_ws/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+roscpp_generate_messages_nodejs: assignment2_ws/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 .PHONY : roscpp_generate_messages_nodejs
 
 # fast build rule for target.
 roscpp_generate_messages_nodejs/fast:
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f Assignment2_ws/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make Assignment2_ws/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f assignment2_ws/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make assignment2_ws/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 # Convenience name for target.
-Assignment2_ws/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Assignment2_ws/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-.PHONY : Assignment2_ws/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+assignment2_ws/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment2_ws/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+.PHONY : assignment2_ws/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_lisp: Assignment2_ws/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+roscpp_generate_messages_lisp: assignment2_ws/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 .PHONY : roscpp_generate_messages_lisp
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f Assignment2_ws/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make Assignment2_ws/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f assignment2_ws/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make assignment2_ws/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 # Convenience name for target.
-Assignment2_ws/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Assignment2_ws/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-.PHONY : Assignment2_ws/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+assignment2_ws/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment2_ws/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+.PHONY : assignment2_ws/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_py: Assignment2_ws/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+std_msgs_generate_messages_py: assignment2_ws/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 .PHONY : std_msgs_generate_messages_py
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f Assignment2_ws/CMakeFiles/std_msgs_generate_messages_py.dir/build.make Assignment2_ws/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f assignment2_ws/CMakeFiles/std_msgs_generate_messages_py.dir/build.make assignment2_ws/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 # Convenience name for target.
-Assignment2_ws/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Assignment2_ws/CMakeFiles/roscpp_generate_messages_eus.dir/rule
-.PHONY : Assignment2_ws/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+assignment2_ws/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment2_ws/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+.PHONY : assignment2_ws/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_eus: Assignment2_ws/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+roscpp_generate_messages_eus: assignment2_ws/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 .PHONY : roscpp_generate_messages_eus
 
 # fast build rule for target.
 roscpp_generate_messages_eus/fast:
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f Assignment2_ws/CMakeFiles/roscpp_generate_messages_eus.dir/build.make Assignment2_ws/CMakeFiles/roscpp_generate_messages_eus.dir/build
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f assignment2_ws/CMakeFiles/roscpp_generate_messages_eus.dir/build.make assignment2_ws/CMakeFiles/roscpp_generate_messages_eus.dir/build
 .PHONY : roscpp_generate_messages_eus/fast
 
 # Convenience name for target.
-Assignment2_ws/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Assignment2_ws/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-.PHONY : Assignment2_ws/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+assignment2_ws/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment2_ws/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+.PHONY : assignment2_ws/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_cpp: Assignment2_ws/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+roscpp_generate_messages_cpp: assignment2_ws/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 .PHONY : roscpp_generate_messages_cpp
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f Assignment2_ws/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make Assignment2_ws/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f assignment2_ws/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make assignment2_ws/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 # Convenience name for target.
-Assignment2_ws/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Assignment2_ws/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-.PHONY : Assignment2_ws/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+assignment2_ws/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment2_ws/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+.PHONY : assignment2_ws/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_cpp: Assignment2_ws/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+std_msgs_generate_messages_cpp: assignment2_ws/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 .PHONY : std_msgs_generate_messages_cpp
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f Assignment2_ws/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make Assignment2_ws/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f assignment2_ws/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make assignment2_ws/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
-Assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-.PHONY : Assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+.PHONY : assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_nodejs: Assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+rosgraph_msgs_generate_messages_nodejs: assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 .PHONY : rosgraph_msgs_generate_messages_nodejs
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_nodejs/fast:
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f Assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make Assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
-Assignment2_ws/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Assignment2_ws/CMakeFiles/roscpp_generate_messages_py.dir/rule
-.PHONY : Assignment2_ws/CMakeFiles/roscpp_generate_messages_py.dir/rule
+assignment2_ws/CMakeFiles/roscpp_generate_messages_py.dir/rule:
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment2_ws/CMakeFiles/roscpp_generate_messages_py.dir/rule
+.PHONY : assignment2_ws/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_py: Assignment2_ws/CMakeFiles/roscpp_generate_messages_py.dir/rule
+roscpp_generate_messages_py: assignment2_ws/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 .PHONY : roscpp_generate_messages_py
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f Assignment2_ws/CMakeFiles/roscpp_generate_messages_py.dir/build.make Assignment2_ws/CMakeFiles/roscpp_generate_messages_py.dir/build
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f assignment2_ws/CMakeFiles/roscpp_generate_messages_py.dir/build.make assignment2_ws/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 # Convenience name for target.
-Assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-.PHONY : Assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+.PHONY : assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_py: Assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+rosgraph_msgs_generate_messages_py: assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 .PHONY : rosgraph_msgs_generate_messages_py
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f Assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make Assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 # Convenience name for target.
-Assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-.PHONY : Assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+.PHONY : assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: Assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+rosgraph_msgs_generate_messages_cpp: assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 .PHONY : rosgraph_msgs_generate_messages_cpp
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f Assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make Assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
-Assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
-.PHONY : Assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+.PHONY : assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_eus: Assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+rosgraph_msgs_generate_messages_eus: assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 .PHONY : rosgraph_msgs_generate_messages_eus
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_eus/fast:
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f Assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make Assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
-Assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-.PHONY : Assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+.PHONY : assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_lisp: Assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+rosgraph_msgs_generate_messages_lisp: assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 .PHONY : rosgraph_msgs_generate_messages_lisp
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f Assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make Assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	cd /home/alectokosch/catkin_ws/build && $(MAKE) -f assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make assignment2_ws/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 # Help Target

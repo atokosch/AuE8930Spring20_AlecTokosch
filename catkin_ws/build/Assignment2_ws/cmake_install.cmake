@@ -1,4 +1,4 @@
-# Install script for directory: /home/alectokosch/catkin_ws/src/Assignment2_ws
+# Install script for directory: /home/alectokosch/catkin_ws/src/assignment2_ws
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/alectokosch/catkin_ws/build/Assignment2_ws/catkin_generated/installspace/Assignment2_ws.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/alectokosch/catkin_ws/build/assignment2_ws/catkin_generated/installspace/assignment2_ws.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Assignment2_ws/cmake" TYPE FILE FILES
-    "/home/alectokosch/catkin_ws/build/Assignment2_ws/catkin_generated/installspace/Assignment2_wsConfig.cmake"
-    "/home/alectokosch/catkin_ws/build/Assignment2_ws/catkin_generated/installspace/Assignment2_wsConfig-version.cmake"
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment2_ws/cmake" TYPE FILE FILES
+    "/home/alectokosch/catkin_ws/build/assignment2_ws/catkin_generated/installspace/assignment2_wsConfig.cmake"
+    "/home/alectokosch/catkin_ws/build/assignment2_ws/catkin_generated/installspace/assignment2_wsConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Assignment2_ws" TYPE FILE FILES "/home/alectokosch/catkin_ws/src/Assignment2_ws/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment2_ws" TYPE FILE FILES "/home/alectokosch/catkin_ws/src/assignment2_ws/package.xml")
 endif()
 
